@@ -5,6 +5,11 @@ import { getProductKind } from '@/design/factory/get-product-kind'
 const { recipe } = getFactoryState()
 const productKind = getProductKind(recipe)
 
+/*
+  Reference: hirekit-temlis.webflow.io
+  Cream beige page + Instrument Serif display + deep-purple primary
+  + punchy neon-green accent on near-black or purple surfaces.
+*/
 export const slot4BrandConfig = {
   siteName: siteIdentity.name,
   tagline: siteIdentity.tagline,
@@ -13,7 +18,8 @@ export const slot4BrandConfig = {
   productKind,
   ogImage: siteIdentity.ogImage,
   accents: {
-    primary: '#d32323',
-    surface: '#ffffff',
+    primary: '#520080',
+    accent: '#c6fe01',
+    surface: '#fcfaed',
   },
 } as const
