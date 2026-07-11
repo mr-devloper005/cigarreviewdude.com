@@ -107,9 +107,9 @@ export function EditableHomeHero({ primaryTask, primaryRoute, posts, timeSection
         <EditableReveal index={4}>
           <div className="mt-14 grid gap-3 sm:grid-cols-3">
             {[
-              { icon: MapPin, label: 'Neighbourhood-first', note: 'A directory kept by hand — not scraped, not padded.' },
-              { icon: BookOpen, label: 'Reference-ready', note: 'A shelf of downloadable guides and reports, always free.' },
-              { icon: Compass, label: 'One search, both shelves', note: 'Type a shop name or a brief title — either surfaces.' },
+              { icon: MapPin, label: 'Smoked to the band', note: 'Every review is a full smoke — burn, draw and flavour, start to finish.' },
+              { icon: BookOpen, label: 'Guides, free to keep', note: 'A shelf of pairing notes and buying briefs you can download anytime.' },
+              { icon: Compass, label: 'One search, every cigar', note: 'Type a blend, a brand or a guide title — it surfaces in a second.' },
             ].map((item, i) => (
               <div key={item.label} className="flex items-start gap-3 rounded-[1.25rem] border border-[var(--editable-border)] bg-[var(--slot4-surface-bg)] p-5 transition-transform duration-500" style={{ transitionDelay: `${i * 60}ms` }}>
                 <span className="mt-0.5 inline-flex h-9 w-9 items-center justify-center rounded-full bg-[var(--slot4-primary)] text-[var(--slot4-on-primary)]">

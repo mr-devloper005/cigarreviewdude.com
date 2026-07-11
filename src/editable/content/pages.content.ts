@@ -3,23 +3,23 @@ import { slot4BrandConfig } from '@/editable/theme/brand.config'
 export const pagesContent = {
   home: {
     metadata: {
-      title: `${slot4BrandConfig.siteName} — Local Directory & Reference Library`,
-      description: `Find the shops, studios and community services around you, and download a growing shelf of guides, reports and reference briefs at ${slot4BrandConfig.siteName}.`,
-      openGraphTitle: `${slot4BrandConfig.siteName} — Local Directory & Reference Library`,
-      openGraphDescription: 'One warm place to browse a neighbourhood directory and download the reference briefs that go with it.',
-      keywords: ['local directory', 'business directory', 'reference library', 'downloadable guides', 'community listings'],
+      title: `${slot4BrandConfig.siteName} — Honest Cigar Reviews & Ratings`,
+      description: `Straight-talking cigar reviews, tasting notes and buying guides at ${slot4BrandConfig.siteName} — every stick smoked to the band and rated by hand, with a free shelf of pairing briefs to download.`,
+      openGraphTitle: `${slot4BrandConfig.siteName} — Honest Cigar Reviews & Ratings`,
+      openGraphDescription: 'Hand-picked cigar reviews, ratings and tasting notes paired with a free library of pairing and buying guides.',
+      keywords: ['cigar reviews', 'cigar ratings', 'best cigars', 'cigar tasting notes', 'cigar buying guide', 'cigar pairings'],
     },
     hero: {
-      badge: 'Directory + Reference Library',
-      title: ['The neighbourhood', 'kept close, in one place.'],
+      badge: 'Honest cigar reviews & ratings',
+      title: ['The best cigars,', 'found and reviewed for you.'],
       description:
-        'A hand-kept directory of local places paired with a shelf of downloadable guides, reports and reference briefs — for readers who like their discovery slow and their answers ready.',
-      primaryCta: { label: 'Browse the directory', href: '/listings' },
-      secondaryCta: { label: 'Open the library', href: '/pdf' },
-      searchPlaceholder: 'Search a shop, a category or a brief title',
+        'Cigar Review Dude smokes every stick to the band — burn, draw and flavour, start to finish — then hands you an honest rating you can actually trust. No hype and no paid placements, just a hand-picked shelf of reviews, pairing notes and buying guides to light up your next pick with confidence.',
+      primaryCta: { label: 'Browse cigar reviews', href: '/listings' },
+      secondaryCta: { label: 'Open the tasting library', href: '/pdf' },
+      searchPlaceholder: 'Search a blend, a brand or a guide title',
       focusLabel: 'This week',
       featureCardBadge: 'Rotating covers',
-      featureCardTitle: 'The freshest listings and downloads set the cover mood.',
+      featureCardTitle: 'The freshest reviews and downloads set the cover mood.',
       featureCardDescription: 'Recent entries lead the visual rhythm without touching any of the underlying discovery logic.',
     },
     intro: {
